@@ -1,3 +1,278 @@
-h1 {
-    color: red;
+.main-block {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-main-heading {
+    text-align: center;
+    font-size: 32px;
+    color: #221E1F;
+    font-weight: 500;
+}
+
+.section-second-heading {
+    font-size: 20px;
+    margin-top: 16px;
+    text-align: center;
+    color: #221E1F;
+}
+
+/* section */
+
+.main-bg {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/bg_home.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top right;
+}
+
+header.header>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+img.header-logo {
+    height: 40px;
+}
+
+a.main-button {
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    padding: 8px 32px;
+    border-radius: 50px;
+    background-color: #FF5D50;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+/* main-secrion */
+.main-section>div.main-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p.main-subtitle {
+    color: #56C4C5;
+    font-size: 18px;
+}
+
+h1.main-heading {
+    font-size: 42px;
+    margin: 12px 0 24px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+h5.main-headingB {
+    font-size: 20px;
+    color: #221E1F;
+}
+
+.main-section-right>img {
+    width: 532px;
+}
+
+/* three platform */
+.main-platform {
+    margin-top: 100px;
+    position: relative;
+}
+
+.green-box {
+    width: 180px;
+    height: 360px;
+    overflow: hidden;
+    transform: rotate(180deg);
+    position: absolute;
+    top: -300px;
+}
+
+img.green-ball {
+    width: 360px;
+    height: 360px;
+}
+
+
+
+.platform-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+img.media-logo {
+    width: 90px;
+    height: auto;
+}
+
+.platform-media {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p.media-name {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 24px 0;
+}
+
+p.media-content {
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #747474;
+}
+
+/* main-service */
+.main-service {
+    margin-top: 100px;
+    position: relative;
+}
+
+.service-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 50px;
+}
+
+.service-cnontent {
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px !important;
+    overflow: hidden;
+    width: 25%;
+    margin-right: 8px;
+    margin-left: 8px;
+    background-color: #fff;
+}
+
+
+.service-cnontent:first-child {
+    margin-left: 0px;
+}
+
+.service-cnontent:last-child {
+    margin-right: 0px;
+}
+
+p.service-role {
+    font-size: 16px;
+    text-align: center;
+    color: #56C4C5;
+    margin-bottom: 16px;
+}
+
+p.service.text {
+    font-size: 16px;
+    color: #221E1F;
+    text-align: center;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.service-content-bottom {
+    padding: 16px 24px 24px;
+}
+
+.green-box2 {
+    width: 210px;
+    height: 310px;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    bottom: -100px;
+    z-index: -1;
+}
+
+img.green-circle {
+    height: 310px;
+}
+
+/* brand featured */
+.brand-featured>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.brand-featured {
+    margin-top: 100px;
+}
+
+.brand-left {
+    width: 50%;
+}
+
+.brand-left {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.brand-info {
+    width: 30%;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    margin-right: 45px;
+    padding: 32px;
+    padding-bottom: 48px;
+    margin-bottom: 30px;
+}
+
+img.brand-logo {
+    width: 52px;
+    padding: 16px;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 50px;
+}
+
+p.brand-heading {
+    font-size: 18px;
+    color: #221E1F;
+    margin-top: 24px;
+    font-weight: bold;
+}
+
+p.brand-text {
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 1.6;
+}
+
+p.brand.section-main-heading {
+    text-align: left;
+    line-height: 1.2;
+}
+
+p.brand.section-second-heading {
+    text-align: left;
+    line-height: 1.6;
+    margin-bottom: 36px;
+}
+
+.brand-right {
+    margin-left: 80px;
+}
+
+a.brand-buuton {
+    font-size: 18px;
+    color: #fff;
+    background-color: #56C4C5;
+    padding: 12px 32px;
+    border-radius: 50px;
+    text-decoration: none;
 }
